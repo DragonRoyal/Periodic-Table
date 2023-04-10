@@ -1,0 +1,223 @@
+/* Atom container */
+body {
+    background-color: #03001C;
+    }
+
+.atom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 12em;
+    margin: 0;
+    letter-spacing: -0.05em;
+    text-shadow: 0 0 20px #fff;
+  }
+  
+  p {
+    font-size: 2em;
+    margin: 0;
+    text-shadow: 0 0 20px #fff;
+  }
+  
+
+  .atom {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
+    animation: atom-rotation 10s linear infinite;
+    position: relative;
+  }
+  
+  .nucleus {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #301E67;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+  }
+  
+  .electron {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00FFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  .electron-1 {
+    animation-name: electron-1-rotation;
+    animation-duration: 2s;
+    border: 1px solid #00ff00;
+  }
+  
+  .electron-2 {
+    animation-name: electron-2-rotation;
+    animation-duration: 2.5s;
+    border: 1px solid #00ff00;
+  }
+  
+  .electron-3 {
+    animation-name: electron-3-rotation;
+    animation-duration: 3s;
+    border: 1px solid #00ff00;
+  }
+  
+  .electron-4 {
+    animation-name: electron-4-rotation;
+    animation-duration: 3.5s;
+    border: 1px solid #00ff00;
+  }
+  
+  .electron-5 {
+    animation-name: electron-5-rotation;
+    animation-duration: 4s;
+    border: 1px solid #5B8FB9;
+  }
+  
+  .electron-6 {
+    animation-name: electron-6-rotation;
+    animation-duration: 4.5s;
+    border: 1px solid #5B8FB9;
+  }
+  
+  .ring-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px dashed #f9f9f9;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .ring-2 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border: 1px dashed #00ff00;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .ring-3 {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border: 1px dashed #00ff00;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .ring-4 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    border: 1px dashed #00ff00;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  
+  .ring-5 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 1px dashed #00ff00;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  @keyframes atom-rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes electron-1-rotation {
+    0% {
+      transform: rotate(0deg) translate(100px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(100px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes electron-2-rotation {
+    0% {
+      transform: rotate(0deg) translate(100px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(100px) rotate(360deg);
+    }
+  }
+  
+  @keyframes electron-3-rotation {
+    0% {
+      transform: rotate(0deg) translate(50px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(50px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes electron-4-rotation {
+    0% {
+      transform: rotate(0deg) translate(50px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translate(50px) rotate(360deg);
+    }
+  }
+  
+  @keyframes electron-5-rotation {
+    0% {
+      transform: rotate(0deg) translate(70px) rotate(0deg);
+      opacity: 1;
+      box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      transform: rotate(180deg) translate(70px) rotate(-180deg);
+      opacity: 0.5;
+      box-shadow: none;
+    }
+    100% {
+      transform: rotate(360deg) translate(70px) rotate(-360deg);
+      opacity: 1;
+      box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  @keyframes electron-6-rotation {
+    0% {
+      transform: rotate(0deg) translate(70px) rotate(0deg);
+      opacity: 1;
+      box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      transform: rotate(180deg) translate(70px) rotate(180deg);
+      opacity: 0.5;
+      box-shadow: none;
+    }
+    100% {
+      transform: rotate(360deg) translate(70px) rotate(360deg);
+      opacity: 1;
+      box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    }
+  }

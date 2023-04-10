@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<link rel="stylesheet" type="text/css" href="/static/css/landingpage.css">
+<link href="/static/favicon.ico" rel="shortcut icon" /> 
+
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="square twitch" style="margin-bottom: 50px;">
+                <span class="one" ></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <div class="circle">
+                    <h2 class="DrugRadar"> DrugRadar
+               
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing el</p>
+                </div>
+            </div>
+
+            
+            </a>
+        </div>
+    </div>
+</html>

@@ -1,0 +1,23 @@
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/404.css">
+
+</head>
+
+<body>
+
+<div class="atom-container">
+    <div class="atom">
+      <div class="nucleus"></div>
+      <div class="electron electron-1"></div>
+      <div class="electron electron-2"></div>
+      <div class="electron electron-3"></div>
+      <div class="electron electron-4"></div>
+      <div class="electron electron-5"></div>
+      <div class="electron electron-6"></div>
+    </div>
+    <h1>404</h1>
+    <p>Oops! Page not found.</p>
+  </div>
+</body>

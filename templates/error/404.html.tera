@@ -1,23 +1,50 @@
+<!DOCTYPE html>
+<html>
 
 <head>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/static/css/404.css">
-
+    <link rel="stylesheet" type="text/css" href="/static/css/scroll.css">
 </head>
 
 <body>
+  
 
-<div class="atom-container">
-    <div class="atom">
-      <div class="nucleus"></div>
-      <div class="electron electron-1"></div>
-      <div class="electron electron-2"></div>
-      <div class="electron electron-3"></div>
-      <div class="electron electron-4"></div>
-      <div class="electron electron-5"></div>
-      <div class="electron electron-6"></div>
-    </div>
-    <h1>404</h1>
-    <p>Oops! Page not found.</p>
+
+{# makes a cool button #}
+<div class="wrapper">
+  <nav>
+    <ul>
+      <li>
+        <a href="/" style="bottom:-300px; right: -250px"> Home </a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="cursor"></div>
+
+
+
+
+  <div class="atom-container">
+      <div class="atom">
+        <div class="nucleus"></div>
+        <div class="electron electron-1"></div>
+        <div class="electron electron-2"></div>
+        <div class="electron electron-3"></div>
+        <div class="electron electron-4"></div>
+        <div class="electron electron-5"></div>
+        <div class="electron electron-6"></div>
+      </div>
+      <h1>404</h1>
+      <p>Oops! Page not found.</p>
   </div>
+
+</div>
+<script src="/static/javascript/scroll.js"></script>
 </body>
+
+</html>

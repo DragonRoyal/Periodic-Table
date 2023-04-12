@@ -1,5 +1,5 @@
 body {
-  background-color: #222;
+  background-color: #03001C;
   color: #fff;
   font-family: Arial, sans-serif;
 }
@@ -89,3 +89,64 @@ body {
 .info-box span {
   font-weight: bold;
 }
+
+
+h1 {
+  color: #FFFFFF;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #FFFFFF;
+}
+
+
+
+
+
+/* 
+h1 {
+  color: #E6B422;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #E6B422;
+}
+
+h2 {
+  color: #FF5733;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #FF5733;
+}
+
+h3 {
+  color: #C70039;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #C70039;
+}
+
+h4 {
+  color: #00BFFF;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #00BFFF;
+}
+
+h5 {
+  color: #FFFFFF;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #FFFFFF;
+}
+h6 {
+  color: #E6B422;
+  font-size: 12em;
+  margin: 0;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 20px #E6B422;
+} */

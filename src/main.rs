@@ -46,7 +46,7 @@ async fn favicon() -> Option<NamedFile> {
 // error handling section *
 #[catch(500)]
 fn internal_error() -> &'static str {
-    "Whoops! Looks like we messed up."
+    "Whoops! Looks like we messed up, Tell me how you got here though"
 }
 
 #[catch(404)]

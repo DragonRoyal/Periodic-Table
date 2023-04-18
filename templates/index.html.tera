@@ -3,7 +3,7 @@
 <head> 
 
 <link rel="stylesheet" type="text/css" href="/static/css/landingpage.css">
-<link href="/static/favicon.ico" rel="shortcut icon" /> 
+{# <link href="/static/favicon.ico" rel="shortcut icon" />  #}
 <link rel="stylesheet" type="text/css" href="/static/css/scroll.css">
 
 </head>

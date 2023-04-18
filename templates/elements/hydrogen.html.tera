@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Hydrogen Element</title>
     <link rel="stylesheet" type="text/css" href="/static/css/elements/hydrogen.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/scroll.css">
+    
   </head>
   <body>
-    <h1> nahhh </h1>
+  <div class="wrapper">
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="/" style="top: -12em; left: 10%;"> Home </a>
+        </li>
+    
+      </ul>
+    </nav>
+    
+    <div class="cursor"></div>
+    <header>
+      <h1> Hydrogen </h1>
+    </header>
+    
+    <div class="boxMain">
+      Hydrogen is the chemical element with the atomic number 1 and symbol H. It is the lightest and most abundant element in the universe, making up about 75% of its elemental mass. Hydrogen is a colorless, odorless, tasteless, and highly flammable gas at standard temperature and pressure. It has a single electron and can form covalent or ionic bonds with other elements. Hydrogen has many important applications in industries such as petroleum refining, metallurgy, and electronics, as well as being used as a fuel for transportation and power generation in fuel cells.
+    </div>
 
-  </body>
-</html>
+
+    <table style="top: 40em; right: 65em">
+
+      <tr>
+        <td>Melting Point</td>
+        <td>-259.1 C</td>    
+      </tr>
+
+      <tr>
+        <td>Boiling Point</td>
+        <td>-252.9</td>    
+      </tr>
+      
+      <tr>
+        <td>Discovered</td>
+        <td> 1766 AD</td>    
+      </tr>
+
+      <tr>
+        <td>Energy Levels</td>
+        <td>1</td>    
+      </tr>
+      
+      
+    </table>
+  
+{#     
+    <div class="atom-container">
+      <div class="atom">
+        <div class="nucleus"></div>
+        <div class="electron electron-6"></div>
+      </div>
+    </div> work on fixing info graphic #}
+
+    
+
+
+  </div>
+  <script src="/static/javascript/scroll.js"></script>
+  
+    

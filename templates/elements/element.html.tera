@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    
+    <title>Hydrogen Element</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/scroll2.css">
+    <style>
+
+        .cursor {
+            margin: 0;
+            padding:0;
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid #eee;
+            left: 0;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            transition: width 1000ms, height 1000ms;
+        
+        }
+        
+        .cursor.large{
+            margin: 0;
+            padding:0;
+            height: 70px;
+            width: 70px;
+        }
+
+
+
+    </style>
+  </head>
+
+
+<body>
+   <div class="wrapper">
+    <div class="cursor"></div>
+    <header class="header"> Hydrogen</header>
+
+    <article class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique vitae eius labore nobis inventore repellat
+        officiis cumque nesciunt soluta accusantium in quia voluptates, sunt incidunt, voluptatem tempore, asperiores dolor
+        laborum. Nihil vel minus aut recusandae itaque autem dicta minima in enim vero, accusamus nulla ea repellat consectetur
+        laboriosam non cumque expedita id, temporibus maiores illo quibusdam. Consequuntur ex natus similique tenetur! Minus
+        totam atque fugiat nam beatae dicta odio. Quibusdam reiciendis tempora amet quisquam fugiat error esse sint aut adipisci
+        sunt rem, in itaque impedit dolorum placeat expedita maxime.
+            
+        
+    </article>
+    <aside class="aside aside1">
+        
+        <div class="atom-container">
+            <div class="atom">
+            <div class="nucleus"></div>
+                <div class="electron electron-1"></div>
+        </div>
+    </aside>
+    {# <aside class="aside aside2">
+        Aside 2
+    </aside> #}
+    <footer class="footer">
+       footer
+    </footer>
+   </div> 
+   <script src="/static/javascript/scroll.js"></script>
+
+
+
+
+
+</body>

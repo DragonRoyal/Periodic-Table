@@ -6,7 +6,10 @@ use rocket::fs::FileServer;
 use rocket::Request;
 use rocket::fs::NamedFile;
 use rocket::http::Status;
-
+use serde_json::{Result, Value};
+use std::fs::File;
+use std::io::BufReader;
+use std::io::Read;
 use std::path::{Path, PathBuf};
 // #[function_component(App)]
 // fn app() -> Html {
@@ -24,7 +27,6 @@ getrandom = { version = "0.2", features = ["js"] } |
 
 */
 
-
 #[get("/")]
 async fn index() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
@@ -34,7 +36,7 @@ async fn index() -> Template {
 #[get("/hydrogen")]
 async fn hydrogen() -> Template{
     let context: HashMap<&str, &str> = HashMap::new();
-    Template::render("elements/hydrogen",&context)
+    Template::render("elements/element",&context)
 }
 
 #[get("/favicon.ico")]
@@ -50,7 +52,7 @@ fn internal_error() -> &'static str {
 }
 
 #[catch(404)]
-fn not_found(req: &Request) -> Template {
+async fn not_found() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
     Template::render("error/404",&context)
 }
@@ -67,7 +69,16 @@ fn default(status: Status, req: &Request) -> String {
 #[launch]
 fn rocket() -> _ {
     //yew::Renderer::<App>::new().render();
+    
+    let mut file = File::open("elements.json").unwrap();
+    let mut buff = String::new();
+    file.read_to_string(&mut buff).unwrap();
+ 
+    let v: Value = serde_json::from_str(&buff).unwrap();
+    let element_name = &v["elements"][2]["name"];
+    println!("{}",element_name);
     rocket::build()
+        
         .mount("/", routes![index])
         .mount("/elements", routes![hydrogen])
         .mount("/static", FileServer::from("static"))

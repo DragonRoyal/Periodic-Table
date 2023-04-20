@@ -1,19 +1,19 @@
-
-.wrapper {
-    height: 100vh;
+/* .wrapper {
+    
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    
     text-align: center;
-    justify-content: center;
+    
     cursor: url("/static/images/custom-cursor.png"), auto
 }
-/* .wrapper>*{
+ .wrapper>*{
     margin: 10px;
     padding: 10px;
     flex: 1 100%;
     border-radius: 10px;
-}  dont use in 404 page*/
+}  */
+
 nav ul {
     list-style: none;
 }
@@ -63,25 +63,4 @@ nav ul li a:hover::after {
 
 nav ul li a:hover {
     cursor: url("/static/images/custom-cursor.png"), auto
-}
-.cursor {
-    margin: 0;
-    padding:0;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #eee;
-    left: 0;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: width 1000ms, height 1000ms;
-
-}
-
-.cursor.large{
-    margin: 0;
-    padding:0;
-    height: 70px;
-    width: 70px;
 }

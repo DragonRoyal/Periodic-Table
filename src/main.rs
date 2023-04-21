@@ -11,6 +11,7 @@ use std::fs::File;
 use std::io::BufReader;
 use std::io::Read;
 use std::path::{Path, PathBuf};
+use serde::Serialize;
 // #[function_component(App)]
 // fn app() -> Html {
 //     html! {
@@ -27,6 +28,16 @@ getrandom = { version = "0.2", features = ["js"] } |
 
 */
 
+
+
+#[derive(Serialize)]
+struct PageData {
+    title: String,
+    summary: String,
+    model: String,
+}
+
+
 #[get("/")]
 async fn index() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
@@ -35,7 +46,21 @@ async fn index() -> Template {
 
 #[get("/hydrogen")]
 async fn hydrogen() -> Template{
-    let context: HashMap<&str, &str> = HashMap::new();
+    let mut file = File::open("elements.json").unwrap();
+    let mut buff = String::new();
+    file.read_to_string(&mut buff).unwrap();
+ 
+    let v: Value = serde_json::from_str(&buff).unwrap();
+    let element_name = v["elements"][1]["name"].as_str().unwrap().to_owned();
+    let element_summary = v["elements"][2]["summary"].as_str().unwrap().to_owned();
+    let element_model = v["elements"][0]["bohr_model_3d"].as_str().unwrap().to_owned();
+    
+    let page_data = PageData {
+        title: element_name,
+        summary: element_summary,
+        model: element_model,
+    };
+    let context = serde_json::to_value(&page_data).unwrap();
     Template::render("elements/element",&context)
 }
 
@@ -70,13 +95,8 @@ fn default(status: Status, req: &Request) -> String {
 fn rocket() -> _ {
     //yew::Renderer::<App>::new().render();
     
-    let mut file = File::open("elements.json").unwrap();
-    let mut buff = String::new();
-    file.read_to_string(&mut buff).unwrap();
- 
-    let v: Value = serde_json::from_str(&buff).unwrap();
-    let element_name = &v["elements"][2]["name"];
-    println!("{}",element_name);
+
+    println!("\"\"");
     rocket::build()
         
         .mount("/", routes![index])

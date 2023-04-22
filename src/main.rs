@@ -32,11 +32,21 @@ getrandom = { version = "0.2", features = ["js"] } |
 
 #[derive(Serialize)]
 struct PageData {
+    image_t: String,
+    image_url: String,
     title: String,
     summary: String,
     model: String,
+    appearance: String,
+    atomic_mass: f64,
+    boil: f64,
+    category: String,
+    density: f64,
+    discovered_by: String,
+    melt: f64,
+    molar_heat: f64,
+    named_by: String,
 }
-
 
 #[get("/")]
 async fn index() -> Template {
@@ -44,21 +54,59 @@ async fn index() -> Template {
     Template::render("index",&context)
 }
 
-#[get("/hydrogen")]
-async fn hydrogen() -> Template{
+#[get("/<element>")]
+async fn hydrogen(element: String) -> Template{
+    let mut elNum: usize = 1;
     let mut file = File::open("elements.json").unwrap();
+    
     let mut buff = String::new();
     file.read_to_string(&mut buff).unwrap();
- 
     let v: Value = serde_json::from_str(&buff).unwrap();
-    let element_name = v["elements"][1]["name"].as_str().unwrap().to_owned();
-    let element_summary = v["elements"][2]["summary"].as_str().unwrap().to_owned();
-    let element_model = v["elements"][0]["bohr_model_3d"].as_str().unwrap().to_owned();
     
+    
+    for i in 0..=117{
+        println!(" this is i {i}");
+        if element == v["elements"][i]["name"].as_str().unwrap(){
+            elNum = i;
+            println!(" this is i 2 {i}");
+            break;
+        }
+        else{
+            
+            println!("should have went to 404 page (not desired)");
+        }
+       
+    }
+    println!("This is i 3 {elNum}");
+    let element_t = v["elements"][elNum]["image"]["title"].as_str().unwrap().to_owned();
+    let element_url = v["elements"][elNum]["image"]["url"].as_str().unwrap().to_owned();
+    let element_name = v["elements"][elNum]["name"].as_str().unwrap().to_owned();
+    let element_summary = v["elements"][elNum]["summary"].as_str().unwrap().to_owned();
+    let element_model = v["elements"][elNum]["bohr_model_3d"].as_str().unwrap().to_owned();
+    let element_app = v["elements"][elNum]["appearance"].as_str().unwrap().to_owned();
+    let element_mass = v["elements"][elNum]["atomic_mass"].as_f64().unwrap().to_owned();
+    let element_boil = v["elements"][elNum]["boil"].as_f64().unwrap().to_owned();
+    let element_cat = v["elements"][elNum]["category"].as_str().unwrap().to_owned();
+    let element_density = v["elements"][elNum]["density"].as_f64().unwrap().to_owned();
+    let element_dis = v["elements"][elNum]["discovered_by"].as_str().unwrap().to_owned();
+    let element_nameby = v["elements"][elNum]["named_by"].as_str().unwrap().to_owned();
+    let element_melt = v["elements"][elNum]["melt"].as_f64().unwrap().to_owned();
+    let element_heat = v["elements"][elNum]["molar_heat"].as_f64().unwrap().to_owned();
     let page_data = PageData {
+        image_t: element_t,
+        image_url: element_url,
         title: element_name,
         summary: element_summary,
         model: element_model,
+        appearance: element_app,
+        atomic_mass: element_mass,
+        boil: element_boil,
+        category: element_cat,
+        density: element_density,
+        discovered_by: element_dis,
+        melt: element_melt,
+        molar_heat: element_heat,
+        named_by: element_nameby,
     };
     let context = serde_json::to_value(&page_data).unwrap();
     Template::render("elements/element",&context)

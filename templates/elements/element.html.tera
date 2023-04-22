@@ -45,6 +45,17 @@
 
     <article class="main">
         {{ summary | trim }}
+        <section class="module">
+          <figure>
+            <a href="#">
+              <img src="{{ image_url }}"/>
+            </a>
+            <figcaption>
+              <strong>Caption</strong>
+              <p class="type"> {{ image_t }} </p>
+            </figcaption>
+          </figure>
+        </section>
             
         
     </article>
@@ -56,11 +67,64 @@
                 <div class="electron electron-1"></div>
         </div> #}
     </aside>
-    {# <aside class="aside aside2">
-        Aside 2
-    </aside> #}
+    <aside class="aside aside2">
+        
+<table id="customers">
+    <tr>
+      <th>{{ title }}</th>
+  
+    </tr>
+    <tr>
+      <td>Atomic Mass</td>
+      <td>{{ atomic_mass }}</td>
+   
+    </tr>
+    <tr>
+      <td>Appearance</td>
+      <td>{{ appearance }}</td>
+      
+    </tr>
+    <tr>
+      <td>Boiling Point</td>
+      <td>{{ boil }}</td>
+      
+    </tr>
+    <tr>
+      <td>Catagory</td>
+      <td>{{ category }}</td>
+      
+    </tr>
+    <tr>
+      <td>Density</td>
+      <td>{{ density }}</td>
+      
+    </tr>
+    <tr>
+      <td>Discovered By</td>
+      <td>{{ discovered_by }}</td>
+      
+    </tr>
+    <tr>
+      <td>Melting Points</td>
+      <td>{{ melt }}</td>
+     
+    </tr>
+    <tr>
+      <td>Molar Heat</td>
+      <td>{{ molar_heat }}</td>
+      
+    </tr>
+    <tr>
+      <td>Named By</td>
+      <td>{{ named_by }}</td>
+      
+    </tr>
+  
+  </table>
+  
+    </aside>
     <footer class="footer">
-       footer
+      im just there
     </footer>
    </div> 
    <script src="/static/javascript/scroll.js"></script>

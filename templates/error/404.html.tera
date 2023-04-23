@@ -40,7 +40,7 @@
         <div class="electron electron-6"></div>
       </div>
       <h1>404</h1>
-      <p>Oops! Page not found.</p>
+      <p>"{{ path }}" does not exist.</p>
   </div>
 
 </div>

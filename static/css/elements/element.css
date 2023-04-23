@@ -177,7 +177,9 @@ p.type{
   margin: 0;
   font-size: 0.9rem;
   padding: 0.5rem 0.8rem ;
-    
+  color: #ffffff;
+  text-shadow: 0 0 20px #FFFFFF;
+  letter-spacing: normal;
 
 }
 

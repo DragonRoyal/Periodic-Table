@@ -1,4 +1,5 @@
 #[macro_use] extern crate rocket;
+use rocket::data::N;
 use rocket_dyn_templates::Template;
 // use yew::prelude::*;
 use std::collections::HashMap;
@@ -10,6 +11,10 @@ use serde_json::{Result, Value};
 use std::fs::File;
 use std::io::BufReader;
 use std::io::Read;
+
+
+use rocket::response::{content, status};
+
 use std::path::{Path, PathBuf};
 use serde::Serialize;
 // #[function_component(App)]
@@ -66,16 +71,26 @@ async fn hydrogen(element: String) -> Template{
     
     for i in 0..=117{
         println!(" this is i {i}");
-        if element == v["elements"][i]["name"].as_str().unwrap(){
+        if element.to_lowercase() == v["elements"][i]["name"].as_str().unwrap().to_lowercase(){
             elNum = i;
             println!(" this is i 2 {i}");
             break;
         }
         else{
+            elNum=i+1;
             
             println!("should have went to 404 page (not desired)");
         }
        
+    }
+    if elNum == 118{
+        let element: &str = element.as_str();
+        println!("pls");
+        let mut context: HashMap<&str, &str> = HashMap::new();
+        context.insert("path", element);
+        let template = Template::render("error/404", &context);
+        return template;
+        
     }
     println!("This is i 3 {elNum}");
     let element_t = v["elements"][elNum]["image"]["title"].as_str().unwrap().to_owned();
@@ -125,8 +140,9 @@ fn internal_error() -> &'static str {
 }
 
 #[catch(404)]
-async fn not_found() -> Template {
-    let context: HashMap<&str, &str> = HashMap::new();
+async fn not_found(req: &Request<'_>) -> Template {
+    let mut context: HashMap<&str, &str> = HashMap::new();
+    context.insert("path", req.uri().path().as_str());
     Template::render("error/404",&context)
 }
 

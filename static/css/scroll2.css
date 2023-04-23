@@ -64,3 +64,4 @@ nav ul li a:hover::after {
 nav ul li a:hover {
     cursor: url("/static/images/custom-cursor.png"), auto
 }
+

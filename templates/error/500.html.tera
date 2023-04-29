@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>500 Internal Server Error</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/500.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/scroll.css">
+</head>
+<body>
+  <div class="container">
+    <div class="icon"></div>
+    <h1>Error: 500 Something went wrong</h1>
+    <p>We're sorry, but the server encountered an internal error and was unable to complete your request. Our team has been notified and we are working to resolve the issue as soon as possible. Please try again later.</p>
+    <p>Here are some suggested actions:</p>
+    <ul>
+      <li><a href="/">Return to the homepage</a></li>
+      <li><a href="mailto:support@example.com">Contact support for assistance</a></li>
+      <li>Check back later</li>
+    </ul>
+  </div>
+</body>
+</html>

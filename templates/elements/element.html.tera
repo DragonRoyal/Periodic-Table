@@ -40,8 +40,21 @@
 <body>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
    <div class="wrapper">
+
+  
     <div class="cursor"></div>
-    <header class="header"> {{ title }}</header>
+    <header class="header">
+       {{ title }}
+       <nav>
+        <ul>
+          <li>
+            <a href="/" > Go to home </a>
+          </li>
+    
+        </ul>
+      </nav>
+      
+    </header>
 
     <article class="main">
         {{ summary | trim }}
@@ -60,7 +73,7 @@
         
     </article>
     <aside class="aside aside1">
-        <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="{{ model }}"  shadow-intensity="1" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer" ></model-viewer>
+        <model-viewer alt="There is no 3d model for this element" src="{{ model }}"  shadow-intensity="1" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer" ></model-viewer>
         {# <div class="atom-container">
             <div class="atom">
             <div class="nucleus"></div>
@@ -68,60 +81,63 @@
         </div> #}
     </aside>
     <aside class="aside aside2">
+      
+  <table>
+    <thead>
+      <tr>
+        <th>{{ title }}</th>
+    
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Atomic Mass</td>
+        <td>{{ atomic_mass }}</td>
+    
+      </tr>
+      <tr>
+        <td>Appearance</td>
+        <td>{{ appearance }}</td>
         
-<table id="customers">
-    <tr>
-      <th>{{ title }}</th>
-  
-    </tr>
-    <tr>
-      <td>Atomic Mass</td>
-      <td>{{ atomic_mass }}</td>
-   
-    </tr>
-    <tr>
-      <td>Appearance</td>
-      <td>{{ appearance }}</td>
+      </tr>
+      <tr>
+        <td>Boiling Point</td>
+        <td>{{ boil }}</td>
+        
+      </tr>
+      <tr>
+        <td>Catagory</td>
+        <td>{{ category }}</td>
+        
+      </tr>
+      <tr>
+        <td>Density</td>
+        <td>{{ density }}</td>
+        
+      </tr>
+      <tr>
+        <td>Discovered By</td>
+        <td>{{ discovered_by }}</td>
+        
+      </tr>
+      <tr>
+        <td>Melting Points</td>
+        <td>{{ melt }}</td>
       
-    </tr>
-    <tr>
-      <td>Boiling Point</td>
-      <td>{{ boil }}</td>
-      
-    </tr>
-    <tr>
-      <td>Catagory</td>
-      <td>{{ category }}</td>
-      
-    </tr>
-    <tr>
-      <td>Density</td>
-      <td>{{ density }}</td>
-      
-    </tr>
-    <tr>
-      <td>Discovered By</td>
-      <td>{{ discovered_by }}</td>
-      
-    </tr>
-    <tr>
-      <td>Melting Points</td>
-      <td>{{ melt }}</td>
-     
-    </tr>
-    <tr>
-      <td>Molar Heat</td>
-      <td>{{ molar_heat }}</td>
-      
-    </tr>
-    <tr>
-      <td>Named By</td>
-      <td>{{ named_by }}</td>
-      
-    </tr>
-  
-  </table>
-  
+      </tr>
+      <tr>
+        <td>Molar Heat</td>
+        <td>{{ molar_heat }}</td>
+        
+      </tr>
+      <tr>
+        <td>Named By</td>
+        <td>{{ named_by }}</td>
+        
+      </tr>
+    </tbody>
+    </table>
+ 
     </aside>
     <footer class="footer">
       im just there

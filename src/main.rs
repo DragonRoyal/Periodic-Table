@@ -56,8 +56,21 @@ struct PageData {
 #[get("/")]
 async fn index() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
-    Template::render("index",&context)
+    Template::render("start",&context)
 }
+
+
+
+
+#[get("/500")]
+async fn er() -> Template {
+    let context: HashMap<&str, &str> = HashMap::new();
+    Template::render("error/500",&context)
+}
+
+
+
+
 
 #[get("/<element>")]
 async fn hydrogen(element: String) -> Template{
@@ -71,7 +84,7 @@ async fn hydrogen(element: String) -> Template{
     
     for i in 0..=117{
         println!(" this is i {i}");
-        if element.to_lowercase() == v["elements"][i]["name"].as_str().unwrap().to_lowercase(){
+        if element.to_lowercase() == v["elements"][i]["name"].as_str().unwrap().to_lowercase() || element == v["elements"][i]["number"].to_string().as_str(){
             elNum = i;
             println!(" this is i 2 {i}");
             break;
@@ -165,6 +178,7 @@ fn rocket() -> _ {
         
         .mount("/", routes![index])
         .mount("/elements", routes![hydrogen])
+        .mount("/", routes![er])
         .mount("/static", FileServer::from("static"))
         .mount("/", routes![favicon])
         .register("/", catchers![internal_error, not_found, default])

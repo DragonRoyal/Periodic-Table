@@ -1,0 +1,797 @@
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/css/landingpage.css">
+  {# <link href="/static/favicon.ico" rel="shortcut icon" />  #}
+  {#     #}
+
+</head>
+
+
+
+
+
+<div class="wrapper">
+    <h1 class="title">Periodic table of element with CSS Grid</h1>
+    <div class="periodic-table">
+      <!-- Alkali metal -->
+      <div class="periodic-table__element periodic-table__element--alkali-metal li">
+        <div class="name">Lithium</div>
+        <div class="atomic-number">3</div>
+        <div class="symbol">Li</div>
+        <div class="atomic-weight">6.94</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkali-metal na">
+        <div class="name">Sodium</div>
+        <div class="atomic-number">11</div>
+        <div class="symbol">Na</div>
+        <div class="atomic-weight">22.990</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkali-metal k">
+        <div class="name">Potassium</div>
+        <div class="atomic-number">19</div>
+        <div class="symbol">K</div>
+        <div class="atomic-weight">39.098</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkali-metal rb">
+        <div class="name">Rubidium</div>
+        <div class="atomic-number">37</div>
+        <div class="symbol">Rb</div>
+        <div class="atomic-weight">85.468</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkali-metal cs">
+        <div class="name">Caesium</div>
+        <div class="atomic-number">55</div>
+        <div class="symbol">Cs</div>
+        <div class="atomic-weight">132.91</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkali-metal fr">
+        <div class="name">Francium</div>
+        <div class="atomic-number">87</div>
+        <div class="symbol">Fr</div>
+        <div class="atomic-weight">[223]</div>
+      </div>
+      <!-- Alkaline earth metal -->
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal be">
+        <div class="name">Berilium</div>
+        <div class="atomic-number">4</div>
+        <div class="symbol">Be</div>
+        <div class="atomic-weight">9.0122</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal mg">
+        <div class="name">Magnesium</div>
+        <div class="atomic-number">12</div>
+        <div class="symbol">Mg</div>
+        <div class="atomic-weight">24.305</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal ca">
+        <div class="name">Calcium</div>
+        <div class="atomic-number">20</div>
+        <div class="symbol">Ca</div>
+        <div class="atomic-weight">40.078</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal sr">
+        <div class="name">Stronium</div>
+        <div class="atomic-number">38</div>
+        <div class="symbol">Sr</div>
+        <div class="atomic-weight">87.62</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal ba">
+        <div class="name">Barium</div>
+        <div class="atomic-number">56</div>
+        <div class="symbol">Ba</div>
+        <div class="atomic-weight">137.33</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--alkaline-earth-metal ra">
+        <div class="name">Radium</div>
+        <div class="atomic-number">88</div>
+        <div class="symbol">Ra</div>
+        <div class="atomic-weight">[226]</div>
+      </div>
+      <!-- Transition metal -->
+      <div class="periodic-table__element periodic-table__element--transition-metal sc">
+        <div class="name">Scandium</div>
+        <div class="atomic-number">21</div>
+        <div class="symbol">Sc</div>
+        <div class="atomic-weight">44.956</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal y">
+        <div class="name">Yttrium</div>
+        <div class="atomic-number">39</div>
+        <div class="symbol">Y</div>
+        <div class="atomic-weight">88.906</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ti">
+        <div class="name">Titanium</div>
+        <div class="atomic-number">22</div>
+        <div class="symbol">Ti</div>
+        <div class="atomic-weight">47.867</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal zr">
+        <div class="name">Zirconium</div>
+        <div class="atomic-number">40</div>
+        <div class="symbol">Zr</div>
+        <div class="atomic-weight">91.224</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal hf">
+        <div class="name">Hafnium</div>
+        <div class="atomic-number">72</div>
+        <div class="symbol">Hf</div>
+        <div class="atomic-weight">178.49</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal rf">
+        <div class="name">Rutherfordium</div>
+        <div class="atomic-number">104</div>
+        <div class="symbol">Rf</div>
+        <div class="atomic-weight">[267]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal v">
+        <div class="name">Vanadium</div>
+        <div class="atomic-number">23</div>
+        <div class="symbol">V</div>
+        <div class="atomic-weight">50.942</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal nb">
+        <div class="name">Niobium</div>
+        <div class="atomic-number">41</div>
+        <div class="symbol">Nb</div>
+        <div class="atomic-weight">92.906</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ta">
+        <div class="name">Tantalum</div>
+        <div class="atomic-number">73</div>
+        <div class="symbol">Ta</div>
+        <div class="atomic-weight">180.95</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal db">
+        <div class="name">Dubnium</div>
+        <div class="atomic-number">105</div>
+        <div class="symbol">Db</div>
+        <div class="atomic-weight">[268]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal cr">
+        <div class="name">Chromium</div>
+        <div class="atomic-number">24</div>
+        <div class="symbol">Cr</div>
+        <div class="atomic-weight">51.996</div>
+      </div>
+  
+      <div class="periodic-table__element periodic-table__element--transition-metal mo">
+        <div class="name">Molybdenum</div>
+        <div class="atomic-number">42</div>
+        <div class="symbol">Mo</div>
+        <div class="atomic-weight">95.95</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal w">
+        <div class="name">Tungsten</div>
+        <div class="atomic-number">74</div>
+        <div class="symbol">W</div>
+        <div class="atomic-weight">183.84</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal sg">
+        <div class="name">Seaborgium</div>
+        <div class="atomic-number">106</div>
+        <div class="symbol">Sg</div>
+        <div class="atomic-weight">[268]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal mn">
+        <div class="name">Manganese</div>
+        <div class="atomic-number">25</div>
+        <div class="symbol">Mn</div>
+        <div class="atomic-weight">54.938</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal tc">
+        <div class="name">Technetium</div>
+        <div class="atomic-number">43</div>
+        <div class="symbol">Tc</div>
+        <div class="atomic-weight">[98]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal re">
+        <div class="name">Rhenium</div>
+        <div class="atomic-number">75</div>
+        <div class="symbol">Re</div>
+        <div class="atomic-weight">186.21</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal bh">
+        <div class="name">Bohrium</div>
+        <div class="atomic-number">107</div>
+        <div class="symbol">Bh</div>
+        <div class="atomic-weight">[270]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal fe">
+        <div class="name">Iron</div>
+        <div class="atomic-number">26</div>
+        <div class="symbol">Fe</div>
+        <div class="atomic-weight">55.845</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ru">
+        <div class="name">Ruthenium</div>
+        <div class="atomic-number">44</div>
+        <div class="symbol">Ru</div>
+        <div class="atomic-weight">101.07</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal os">
+        <div class="name">Osmium</div>
+        <div class="atomic-number">76</div>
+        <div class="symbol">Os</div>
+        <div class="atomic-weight">190.23</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal hs">
+        <div class="name">Hassium</div>
+        <div class="atomic-number">108</div>
+        <div class="symbol">Hs</div>
+        <div class="atomic-weight">[270]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal co">
+        <div class="name">Cobalt</div>
+        <div class="atomic-number">27</div>
+        <div class="symbol">Co</div>
+        <div class="atomic-weight">58.933</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal rh">
+        <div class="name">Rhodium</div>
+        <div class="atomic-number">45</div>
+        <div class="symbol">Rh</div>
+        <div class="atomic-weight">102.91</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ir">
+        <div class="name">Iridium</div>
+        <div class="atomic-number">77</div>
+        <div class="symbol">Ir</div>
+        <div class="atomic-weight">192.22</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ni">
+        <div class="name">Nickel</div>
+        <div class="atomic-number">28</div>
+        <div class="symbol">Ni</div>
+        <div class="atomic-weight">58.693</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal pd">
+        <div class="name">Palladium</div>
+        <div class="atomic-number">46</div>
+        <div class="symbol">Pd</div>
+        <div class="atomic-weight">106.42</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal pt">
+        <div class="name">Platinum</div>
+        <div class="atomic-number">78</div>
+        <div class="symbol">Pt</div>
+        <div class="atomic-weight">195.08</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal cu">
+        <div class="name">Copper</div>
+        <div class="atomic-number">29</div>
+        <div class="symbol">Cu</div>
+        <div class="atomic-weight">63.546</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal ag">
+        <div class="name">Silver</div>
+        <div class="atomic-number">47</div>
+        <div class="symbol">Ag</div>
+        <div class="atomic-weight">107.87</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--transition-metal au">
+        <div class="name">Gold</div>
+        <div class="atomic-number">79</div>
+        <div class="symbol">Au</div>
+        <div class="atomic-weight">196.97</div>
+      </div>
+      <!-- Post transition metals -->
+      <div class="periodic-table__element periodic-table__element--post-transition-metal zn">
+        <div class="name">Zn</div>
+        <div class="atomic-number">30</div>
+        <div class="symbol">Zn</div>
+        <div class="atomic-weight">65.38</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal cd">
+        <div class="name">Cadmium</div>
+        <div class="atomic-number">48</div>
+        <div class="symbol">Cd</div>
+        <div class="atomic-weight">112.41</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal hg">
+        <div class="name">Mercury</div>
+        <div class="atomic-number atomic-number--green">80</div>
+        <div class="symbol">Hg</div>
+        <div class="atomic-weight">200.59</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal cn">
+        <div class="name">Coppernicum</div>
+        <div class="atomic-number">112</div>
+        <div class="symbol">Cn</div>
+        <div class="atomic-weight">[285]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal al">
+        <div class="name">Aluminium</div>
+        <div class="atomic-number">13</div>
+        <div class="symbol">Al</div>
+        <div class="atomic-weight">26.982</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal ga">
+        <div class="name">Gallium</div>
+        <div class="atomic-number">31</div>
+        <div class="symbol">Ga</div>
+        <div class="atomic-weight">69.723</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal in">
+        <div class="name">Indium</div>
+        <div class="atomic-number">49</div>
+        <div class="symbol">In</div>
+        <div class="atomic-weight">114.82</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal tl">
+        <div class="name">Thallium</div>
+        <div class="atomic-number">81</div>
+        <div class="symbol">Tl</div>
+        <div class="atomic-weight">204.38</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal sn">
+        <div class="name">Tin</div>
+        <div class="atomic-number">50</div>
+        <div class="symbol">Sn</div>
+        <div class="atomic-weight">118.71</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal pb">
+        <div class="name">Lead</div>
+        <div class="atomic-number">82</div>
+        <div class="symbol">Pb</div>
+        <div class="atomic-weight">207.2</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal bi">
+        <div class="name">Bismuth</div>
+        <div class="atomic-number">83</div>
+        <div class="symbol">Bi</div>
+        <div class="atomic-weight">208.98</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--post-transition-metal po">
+        <div class="name">Polonium</div>
+        <div class="atomic-number">84</div>
+        <div class="symbol">Po</div>
+        <div class="atomic-weight">[209]</div>
+      </div>
+      <!-- Metaloid -->
+      <div class="periodic-table__element periodic-table__element--metaloid b">
+        <div class="name">Boron</div>
+        <div class="atomic-number">5</div>
+        <div class="symbol">B</div>
+        <div class="atomic-weight">10.81</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid si">
+        <div class="name">Silicon</div>
+        <div class="atomic-number">14</div>
+        <div class="symbol">Si</div>
+        <div class="atomic-weight">28.085</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid ge">
+        <div class="name">Germanium</div>
+        <div class="atomic-number">32</div>
+        <div class="symbol">Ge</div>
+        <div class="atomic-weight">76.630</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid as">
+        <div class="name">Arsenic</div>
+        <div class="atomic-number">33</div>
+        <div class="symbol">As</div>
+        <div class="atomic-weight">74.922</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid sb">
+        <div class="name">Antimony</div>
+        <div class="atomic-number">51</div>
+        <div class="symbol">Sb</div>
+        <div class="atomic-weight">121.76</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid te">
+        <div class="name">Tellurium</div>
+        <div class="atomic-number">52</div>
+        <div class="symbol">Te</div>
+        <div class="atomic-weight">127.60</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--metaloid at">
+        <div class="name">Astatine</div>
+        <div class="atomic-number">82</div>
+        <div class="symbol">At</div>
+        <div class="atomic-weight">[210]</div>
+      </div>
+      <!-- Reactive non metal -->
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal">
+        <div class="name">Hydrogen</div>
+        <div class="atomic-number">1</div>
+        <div class="symbol">H</div>
+        <div class="atomic-weight">1.008</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal c">
+        <div class="name">Carbon</div>
+        <div class="atomic-number">6</div>
+        <div class="symbol">C</div>
+        <div class="atomic-weight">12.011</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal n">
+        <div class="name">Nitrogen</div>
+        <div class="atomic-number">7</div>
+        <div class="symbol">N</div>
+        <div class="atomic-weight">14.007</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal o">
+        <div class="name">Oxygen</div>
+        <div class="atomic-number">8</div>
+        <div class="symbol">O</div>
+        <div class="atomic-weight">15.999</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal f">
+        <div class="name">Fluorine</div>
+        <div class="atomic-number">9</div>
+        <div class="symbol">F</div>
+        <div class="atomic-weight">18.998</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal p">
+        <div class="name">Phosphorus</div>
+        <div class="atomic-number">15</div>
+        <div class="symbol">P</div>
+        <div class="atomic-weight">30.974</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal s">
+        <div class="name">Sulfur</div>
+        <div class="atomic-number">16</div>
+        <div class="symbol">S</div>
+        <div class="atomic-weight">32.06</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal cl">
+        <div class="name">Chlorine</div>
+        <div class="atomic-number">17</div>
+        <div class="symbol">Cl</div>
+        <div class="atomic-weight">35.45</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal se">
+        <div class="name">Selenium</div>
+        <div class="atomic-number">34</div>
+        <div class="symbol">Se</div>
+        <div class="atomic-weight">78.971</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal br">
+        <div class="name">Bromine</div>
+        <div class="atomic-number">35</div>
+        <div class="symbol">Br</div>
+        <div class="atomic-weight">79.904</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--reactive-nonmetal i">
+        <div class="name">Iodine</div>
+        <div class="atomic-number">53</div>
+        <div class="symbol">I</div>
+        <div class="atomic-weight">126.90</div>
+      </div>
+      <!-- Lanthanide -->
+      <div class="periodic-table__element periodic-table__element--lanthanide la">
+        <div class="name">Lanthanum</div>
+        <div class="atomic-number">57</div>
+        <div class="symbol">La</div>
+        <div class="atomic-weight">138.91</div>
+      </div>
+      <!-- Actinide -->
+      <div class="periodic-table__element periodic-table__element--actinide ac">
+        <div class="name">Actinium</div>
+        <div class="atomic-number">89</div>
+        <div class="symbol">Ac</div>
+        <div class="atomic-weight">[227]</div>
+      </div>
+      <!-- Noble gases -->
+      <div class="periodic-table__element periodic-table__element--noble-gas he">
+        <div class="name">Helium</div>
+        <div class="atomic-number">2</div>
+        <div class="symbol">He</div>
+        <div class="atomic-weight">4.0026</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--noble-gas ne">
+        <div class="name">Neon</div>
+        <div class="atomic-number">10</div>
+        <div class="symbol">Ne</div>
+        <div class="atomic-weight">20.180</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--noble-gas he">
+        <div class="name">Argon</div>
+        <div class="atomic-number">18</div>
+        <div class="symbol">Ar</div>
+        <div class="atomic-weight">39.948</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--noble-gas he">
+        <div class="name">Krypton</div>
+        <div class="atomic-number">36</div>
+        <div class="symbol">Kr</div>
+        <div class="atomic-weight">83.798</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--noble-gas he">
+        <div class="name">Xenon</div>
+        <div class="atomic-number">54</div>
+        <div class="symbol">Xe</div>
+        <div class="atomic-weight">131.29</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--noble-gas he">
+        <div class="name">Radon</div>
+        <div class="atomic-number">86</div>
+        <div class="symbol">Rn</div>
+        <div class="atomic-weight">[222]</div>
+      </div>
+      <!-- Unknown chemical properties -->
+      <div class="periodic-table__element periodic-table__element--unknown og">
+        <div class="name">Ogannesson</div>
+        <div class="atomic-number">118</div>
+        <div class="symbol">Og</div>
+        <div class="atomic-weight">[294]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown mt">
+        <div class="name">Meitnerium</div>
+        <div class="atomic-number">109</div>
+        <div class="symbol">Mt</div>
+        <div class="atomic-weight">[278]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown ds">
+        <div class="name">Darmstadtium</div>
+        <div class="atomic-number">110</div>
+        <div class="symbol">Ds</div>
+        <div class="atomic-weight">[281]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown rg">
+        <div class="name">Roentgenium</div>
+        <div class="atomic-number">111</div>
+        <div class="symbol">Rg</div>
+        <div class="atomic-weight">[282]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown nh">
+        <div class="name">Nihonium</div>
+        <div class="atomic-number">113</div>
+        <div class="symbol">Nh</div>
+        <div class="atomic-weight">[286]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown fl">
+        <div class="name">Flerovium</div>
+        <div class="atomic-number">114</div>
+        <div class="symbol">Fl</div>
+        <div class="atomic-weight">[289]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown mc">
+        <div class="name">Moscovium</div>
+        <div class="atomic-number">115</div>
+        <div class="symbol">Mc</div>
+        <div class="atomic-weight">[290]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown lv">
+        <div class="name">Livermorium</div>
+        <div class="atomic-number">116</div>
+        <div class="symbol">Lv</div>
+        <div class="atomic-weight">[293]</div>
+      </div>
+      <div class="periodic-table__element periodic-table__element--unknown ts">
+        <div class="name">Tennessine</div>
+        <div class="atomic-number">117</div>
+        <div class="symbol">Ts</div>
+        <div class="atomic-weight">[294]</div>
+      </div>
+    </div>
+    <div class="extra-info">
+      <div class="extra-info__legend">
+        <ul class="list">
+          <li class="list__item">
+            <p class="title">Metal</p>
+            <ul class="sublist">
+              <li class="sublist__item">
+                <b class="sublist__item box"> </b>
+                <span class="sublist__item name">Alkali metal</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--alkaline-earth"> </b>
+                <span>Alkaline earth metal</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--lanthanide"> </b>
+                <span>Lanthanide</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--actinide"> </b>
+                <span>Actinide</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--transition-metal"> </b>
+                <span>Transition metal</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--post-transition"> </b>
+                <span>Post-transition metal</span>
+              </li>
+            </ul>
+          </li>
+          <li class="list__item">
+            <p class="title">Nonmetal</p>
+            <ul class="sublist">
+              <li class="sublist__item">
+                <b class="sublist__item box box--reactive-nonmetal"> </b>
+                <span class="sublist__item name">Reactive nonmetal</span>
+              </li>
+              <li class="sublist__item">
+                <b class="sublist__item box box--noble-gas"> </b>
+                <span>Noble gas</span>
+              </li>
+            </ul>
+          </li>
+          <li class="list__single-item">
+            <b class="box box--metaloid"></b>
+            <span class="title">Metalloid</span>
+          </li>
+          <li class="list__single-item">
+            <b class="box box--unknown"></b>
+            <span class="title">Unkwown chemical properties</span>
+          </li>
+        </ul>
+      </div>
+      <div class="periodic-subtable">
+        <!-- Lanthanide -->
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Cerium</div>
+          <div class="atomic-number">58</div>
+          <div class="symbol">Ce</div>
+          <div class="atomic-weight">140.12</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Praseodymium</div>
+          <div class="atomic-number">59</div>
+          <div class="symbol">Pr</div>
+          <div class="atomic-weight">140.91</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Neodymium</div>
+          <div class="atomic-number">60</div>
+          <div class="symbol">Nd</div>
+          <div class="atomic-weight">144.24</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Promethium</div>
+          <div class="atomic-number">61</div>
+          <div class="symbol">Pm</div>
+          <div class="atomic-weight">[145]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Samarium</div>
+          <div class="atomic-number">62</div>
+          <div class="symbol">Sm</div>
+          <div class="atomic-weight">150.36</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Europium</div>
+          <div class="atomic-number">63</div>
+          <div class="symbol">Eu</div>
+          <div class="atomic-weight">151.96</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Gadolinium</div>
+          <div class="atomic-number">64</div>
+          <div class="symbol">Gd</div>
+          <div class="atomic-weight">157.25</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Terbium</div>
+          <div class="atomic-number">65</div>
+          <div class="symbol">Tb</div>
+          <div class="atomic-weight">158.93</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Dysprosium</div>
+          <div class="atomic-number">66</div>
+          <div class="symbol">Dy</div>
+          <div class="atomic-weight">162.50</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Holmium</div>
+          <div class="atomic-number">67</div>
+          <div class="symbol">Ho</div>
+          <div class="atomic-weight">164.93</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Erbium</div>
+          <div class="atomic-number">68</div>
+          <div class="symbol">Er</div>
+          <div class="atomic-weight">167.26</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Thulium</div>
+          <div class="atomic-number">69</div>
+          <div class="symbol">Tm</div>
+          <div class="atomic-weight">168.93</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Ytterbium</div>
+          <div class="atomic-number">70</div>
+          <div class="symbol">Yb</div>
+          <div class="atomic-weight">173.05</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--lanthanide la">
+          <div class="name">Lutetium</div>
+          <div class="atomic-number">71</div>
+          <div class="symbol">Lu</div>
+          <div class="atomic-weight">174.97</div>
+        </div>
+        <!-- Actinide -->
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Thorium</div>
+          <div class="atomic-number">90</div>
+          <div class="symbol">Th</div>
+          <div class="atomic-weight">232.04</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Protactinium</div>
+          <div class="atomic-number">91</div>
+          <div class="symbol">Pa</div>
+          <div class="atomic-weight">231.04</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Uranium</div>
+          <div class="atomic-number">92</div>
+          <div class="symbol">U</div>
+          <div class="atomic-weight">238.03</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Neptunium</div>
+          <div class="atomic-number">93</div>
+          <div class="symbol">Np</div>
+          <div class="atomic-weight">[237]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Plutonium</div>
+          <div class="atomic-number">94</div>
+          <div class="symbol">Pu</div>
+          <div class="atomic-weight">[244]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Americium</div>
+          <div class="atomic-number">95</div>
+          <div class="symbol">Am</div>
+          <div class="atomic-weight">[243]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Curium</div>
+          <div class="atomic-number">96</div>
+          <div class="symbol">Cm</div>
+          <div class="atomic-weight">[247]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Berkelium</div>
+          <div class="atomic-number">97</div>
+          <div class="symbol">Bk</div>
+          <div class="atomic-weight">[247]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Californium</div>
+          <div class="atomic-number">98</div>
+          <div class="symbol">Cf</div>
+          <div class="atomic-weight">[251]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Einsteinium</div>
+          <div class="atomic-number">99</div>
+          <div class="symbol">Es</div>
+          <div class="atomic-weight">[252]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Fermium</div>
+          <div class="atomic-number">100</div>
+          <div class="symbol">Fm</div>
+          <div class="atomic-weight">[257]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Mendelevium</div>
+          <div class="atomic-number">101</div>
+          <div class="symbol">Md</div>
+          <div class="atomic-weight">[258]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Nobelium</div>
+          <div class="atomic-number">102</div>
+          <div class="symbol">Nb</div>
+          <div class="atomic-weight">[259]</div>
+        </div>
+        <div class="periodic-subtable__element periodic-subtable__element--actinide">
+          <div class="name">Lawrencium</div>
+          <div class="atomic-number">103</div>
+          <div class="symbol">Lr</div>
+          <div class="atomic-weight">[266]</div>
+        </div>
+      </div>
+    </div>
+  </div>

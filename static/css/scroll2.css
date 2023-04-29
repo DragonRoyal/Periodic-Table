@@ -65,3 +65,9 @@ nav ul li a:hover {
     cursor: url("/static/images/custom-cursor.png"), auto
 }
 
+nav ul li:first-child {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -1;
+    }

@@ -6,9 +6,9 @@ Welcome to the Periodic Table website, an open-source project designed to help u
 
 ## Planned Features
 
-- Element Information: Browse detailed information about each element, including its atomic number, symbol, name, and chemical properties.
+- ~~Element Information: Browse detailed information about each element, including its atomic number, symbol, name, and chemical properties.~~ - Done
 - Interactive Table: Explore the periodic table with a customizable, interactive table that allows you to view elements based on their classification, state, or electron configuration.
-- Search Function: Quickly find any element by name, symbol, or atomic number using the search function.
+- ~~Search Function: Quickly find any element by name, symbol, or atomic number using the search function.~~ - Done
 - Quiz: Test your knowledge of the periodic table with a fun and educational quiz that covers topics such as element properties, electron configurations, and more.
 - User Accounts: Create a personal account to save your quiz scores, track your progress, and unlock additional features.
 

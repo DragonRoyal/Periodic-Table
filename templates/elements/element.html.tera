@@ -7,6 +7,8 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css">
     <link rel="stylesheet" type="text/css" href="/static/css/scroll2.css">
+    
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
 
         .cursor {
@@ -140,9 +142,16 @@
  
     </aside>
     <footer class="footer">
-      im just there
+      
+      <ul>
+        <li>
+          <a class="url" href="#"><i class="fa fa-github"></i></a>
+        </li>
+
+      </ul>
+
     </footer>
-   </div> 
+   
    <script src="/static/javascript/scroll.js"></script>
    
 

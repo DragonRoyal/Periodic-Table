@@ -56,7 +56,7 @@ struct PageData {
 #[get("/")]
 async fn index() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
-    Template::render("start",&context)
+    Template::render("index",&context)
 }
 
 

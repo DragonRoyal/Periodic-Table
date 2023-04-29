@@ -1,17 +1,11 @@
 body {
-  background-color: #03001C;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  
   background: #c33764; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   
 }
-
-
-
 
 
 
@@ -82,9 +76,11 @@ model-viewer {
 }
 
 .footer{
-  /* background: lightgreen; */
-  height: 5em;
-   
+  background: #c33764;
+
+  height: 3em;
+  justify-content: center;
+  align-items: center;
   color: #FFFFFF;
   font-size: 5em;
   letter-spacing: -0.05em;
@@ -192,11 +188,86 @@ tbody td:hover:before {
 
 
 
+/* this is for the github footer url */
 
+ul li {
+	list-style: none;
+	
+}
 
-
-
-
+ul li a.url {
+	position: relative;
+	display: block;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	background: #333;
+	border-radius: 50%;
+	font-size: 35px;
+	color: #999;
+	transition: .5s;
+}
+ul li a.url:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transition: .5s;
+	transform: scale(.9);
+	z-index: -1;
+}
+ul li:nth-child(1) a.url:before {
+	background: #ffee10;
+}
+ul li:nth-child(2) a.url:before {
+	background: #0097BC;
+}
+ul li:nth-child(3) a.url:before {
+	background: #e50000;
+}
+ul li:nth-child(4) a.url:before {
+	background: #00ff2a;
+}
+ul li a.url:hover:before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #ffee10;
+}
+ul li a.url:hover {
+	color: #ffee10;
+	box-shadow: 0 0 5px #ffee10;
+	text-shadow: 0 0 5px #ffee10;
+}
+ul li:nth-child(2) a.url:hover:before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #0097BC;
+}
+ul li:nth-child(2) a.url:hover {
+	color: #0097BC;
+	box-shadow: 0 0 15px #0097BC;
+	text-shadow: 0 0 5px #0097BC;
+}
+ul li:nth-child(3) a.url:hover:before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #e50000;
+}
+ul li:nth-child(3) a.url:hover {
+	color: #e50000;
+	box-shadow: 0 0 15px #e50000;
+	text-shadow: 0 0 5px #e50000;
+}
+ul li:nth-child(4) a.url:hover:before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #00ff2a;
+}
+ul li:nth-child(4) a.url:hover {
+	color: #00ff2a;
+	box-shadow: 0 0 15px #00ff2a;
+	text-shadow: 0 0 5px #00ff2a;
+}
 
 
 .main{
@@ -209,6 +280,7 @@ tbody td:hover:before {
   letter-spacing: -0.05em;
   text-shadow: 0 0 20px #FFFFFF;
   text-align: center;
+ 
 }
 
 .aside1{

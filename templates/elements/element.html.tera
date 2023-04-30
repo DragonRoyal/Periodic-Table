@@ -17,6 +17,7 @@
             position: fixed;
             width: 40px;
             height: 40px;
+            z-index: 2;
             border-radius: 50%;
             border: 2px solid #eee;
             left: 0;
@@ -93,49 +94,95 @@
     </thead>
     <tbody>
       <tr>
-        <td>Atomic Mass</td>
+        <td>
+          <div class="popup" onclick="togglePopup('atoM')">Atomic Mass
+            <span class="popuptext" id="atoM">
+            The quantity of matter contained in an atom of an element.</span>
+          </div>
+        </td>
         <td>{{ atomic_mass }}</td>
     
       </tr>
       <tr>
-        <td>Appearance</td>
+        <td>
+          <div class="popup" onclick="togglePopup('app')">Appearance
+            <span class="popuptext" id="app">
+            A general description of how the element "looks" like.</span>
+          </div>
+        </td>
         <td>{{ appearance }}</td>
         
       </tr>
       <tr>
-        <td>Boiling Point</td>
+        <td>
+          <div class="popup" onclick="togglePopup('boil')">Boiling Point
+            <span class="popuptext" id="boil">
+            The boiling point of an element is the temperature at which it changes from a liquid to a gas.</span>
+          </div>
+        </td>
         <td>{{ boil }}</td>
         
       </tr>
       <tr>
-        <td>Catagory</td>
+        <td>
+          <div class="popup" onclick="togglePopup('cata')">Catagory
+            <span class="popuptext" id="cata">
+              Element category refers to the group of elements sharing similar properties and behaviors based on their electronic structure and position in the periodic table.</span>
+          </div>
+        </td>
         <td>{{ category }}</td>
         
       </tr>
       <tr>
-        <td>Density</td>
+        <td>
+          <div class="popup" onclick="togglePopup('dense')">Density
+            <span class="popuptext" id="dense">
+            Density is a measure of how tightly packed the atoms in a substance are, which affects how heavy an object is for its size.</span>
+          </div>
+        </td>
         <td>{{ density }}</td>
         
       </tr>
       <tr>
-        <td>Discovered By</td>
+        <td>
+          <div class="popup" onclick="togglePopup('disc')">Discovered By
+            <span class="popuptext" id="disc">
+            Who first discovered this element.</span>
+          </div>
+        </td>
         <td>{{ discovered_by }}</td>
         
       </tr>
       <tr>
-        <td>Melting Points</td>
+        <td>
+          <div class="popup" onclick="togglePopup('melt')">Melting Point
+            <span class="popuptext" id="melt">
+            The melting point of an element is the temperature at which it changes from a solid to a liquid.</span>
+          </div>
+        </td>
         <td>{{ melt }}</td>
       
       </tr>
       <tr>
-        <td>Molar Heat</td>
+        <td>
+          <div class="popup" onclick="togglePopup('mole')">Molar Heat
+            <span class="popuptext" id="mole">
+            Molar heat is a measure of how much heat energy is needed to change the temperature of a specific amount of a substance.</span>
+          </div>
+        </td>
         <td>{{ molar_heat }}</td>
         
       </tr>
       <tr>
-        <td>Named By</td>
+        <td>
+          <div class="popup" onclick="togglePopup('name')">Named By
+            <span class="popuptext" id="name">
+              Who named the element.
+           </span>
+          </div>
+        </td>
         <td>{{ named_by }}</td>
-        
+      
       </tr>
     </tbody>
     </table>
@@ -145,7 +192,7 @@
       
       <ul>
         <li>
-          <a class="url" href="https://github.com/DragonRoyal"><i class="fa fa-github"></i></a>
+          <a class="url" href="https://github.com/DragonRoyal/Periodic-Table"><i class="fa fa-github"></i></a>
         </li>
 
       </ul>
@@ -153,7 +200,19 @@
     </footer>
    
    <script src="/static/javascript/scroll.js"></script>
-   
+   <script>
+    // When the user clicks on div, open the popup
+    function togglePopup(id) {
+      
+      var popup = document.getElementById(String(id));
+      popup.classList.toggle("show");
+    
+      // Hide the popup after 5 seconds
+      setTimeout(function() {
+        popup.classList.remove("show");
+      }, 8000);
+    }
+    </script>
 
 
 

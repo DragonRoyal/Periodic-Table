@@ -286,6 +286,9 @@ ul li:nth-child(4) a.url:hover {
 .aside1{
   /* background: gold; */
   max-width: 60em;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #0097BC;
   
 }
 

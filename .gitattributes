@@ -1,4 +1,4 @@
 *.tera linguist-language=HTML
-*.html linguist-detectable=false
+*.tera linguist-detectable=false
 
 

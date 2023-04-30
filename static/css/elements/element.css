@@ -52,7 +52,7 @@ model-viewer {
     
   display: flex;
   flex-flow: row wrap;
-
+  
   text-align: center;
 
   cursor: url("/static/images/custom-cursor.png"), auto
@@ -100,11 +100,15 @@ p.type{
 }
 
 section.module {
+  display: block;
   border: 1px solid #E6B422;;
   width: 250px;
   
-  margin-left: 10em;
-  margin-top: 3em;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+  /* margin-left: 10em;
+  margin-top: 3em; */
 }
 section.module figure {
   margin: 0;
@@ -130,7 +134,7 @@ section.module figcaption {
   position: absolute;
   bottom: 0;
   transition: all 0.5s;
-  max-height: 1.6rem;
+  max-height: 0.5rem;
  }
 section.module figcaption strong{
   color: rgba(0, 0, 0, 0.8);
@@ -153,6 +157,7 @@ section.module figcaption strong {
   transform: translate(-50%,-50%);
 }
 table {
+  margin: auto;
   width: 800px;
   border-collapse: collapse;
   overflow: hidden;
@@ -199,6 +204,7 @@ ul li a.url {
 	position: relative;
 	display: block;
 	width: 90px;
+  margin: auto;
 	height: 90px;
 	text-align: center;
 	line-height: 90px;

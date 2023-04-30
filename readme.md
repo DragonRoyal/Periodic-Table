@@ -1,7 +1,5 @@
 # The Periodic Table Website
 
-
-
 Welcome to the Periodic Table website, an open-source project designed to help users learn and explore the elements of the periodic table. This website provides a user-friendly interface, detailed information about each element, and interactive features to enhance your learning experience.
 
 ## Planned Features
@@ -13,6 +11,7 @@ Welcome to the Periodic Table website, an open-source project designed to help u
 - User Accounts: Create a personal account to save your quiz scores, track your progress, and unlock additional features.
 
 ## Getting Started
+
 As of now this website is a work in progress and very early in its development and has not been ported yet. Feel free to contribute
 
 ## Contributing

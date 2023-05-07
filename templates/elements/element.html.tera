@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     
     <title>{{ title }}</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css">
+    <link rel="stylesheet" type="text/css" href="/static/tailcss/elements/element_o.css">
+    {# <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css"> #}
     <link rel="stylesheet" type="text/css" href="/static/css/scroll2.css">
     
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -46,8 +47,8 @@
 
   
     <div class="cursor"></div>
-    <header class="header">
-       {{ title }}
+    <header class="header align-text-top">
+       {{ title }} b
        <nav>
         <ul>
           <li>
@@ -60,7 +61,7 @@
     </header>
 
     <article class="main">
-        {{ summary | trim }}
+        {{ summary }}
         <section class="module">
           <figure>
             <a href="#">
@@ -95,9 +96,9 @@
     <tbody>
       <tr>
         <td>
-          <div class="popup" onclick="togglePopup('atoM')">Atomic Mass
+          <div class="popup ease-out transform hover" onclick="togglePopup('atoM')">Atomic Mass
             <span class="popuptext" id="atoM">
-            The quantity of matter contained in an atom of an element.</span>
+            Amount of matter contained in an atom of an element.</span>
           </div>
         </td>
         <td>{{ atomic_mass }}</td>
@@ -188,7 +189,7 @@
     </table>
  
     </aside>
-    <footer class="footer">
+    <footer class="footer mb-auto">
       
       <ul>
         <li>

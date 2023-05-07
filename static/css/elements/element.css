@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
 body {
   background: #c33764; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
@@ -6,15 +16,6 @@ body {
   min-height: 100vh;
   
 }
-
-
-
-
-
-
-
-
-
 
 
 model-viewer {
@@ -66,7 +67,8 @@ model-viewer {
 
 .header{
   /* background: tomato; */
-  height: 120px;  
+  /* max-height: 170px; */
+  /* height: 120px;  120 orginal height */
   color: #FFFFFF;
   font-size: 7em;
   letter-spacing: -0.05em;
@@ -173,6 +175,7 @@ th {
 }
 thead th {
   background-color: #55608f;
+  height: 60px;
 }
 tbody tr:hover {
   background-color: rgba(255,255,255,0.3);

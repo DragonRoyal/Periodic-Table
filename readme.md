@@ -10,6 +10,75 @@ Welcome to the Periodic Table website, an open-source project designed to help u
 - Quiz: Test your knowledge of the periodic table with a fun and educational quiz that covers topics such as element properties, electron configurations, and more.
 - User Accounts: Create a personal account to save your quiz scores, track your progress, and unlock additional features.
 
+# Roadmap
+
+## Week 1 (starting from 5/13/2023)
+
+- **Login page**
+  - Finish login page frontend
+  - Finish resitration page frontend
+
+- **Database**
+  - Connect and set database connections
+  - check for security vulnerabilities
+
+## Week 2
+
+- **More Database**
+  - link html login page to rust backend (database)
+  - Make passwords have minimum lengths
+
+- **Bug Squash**
+  - add "Error handing" to check if you put a valid email / password
+  - Check for bugs
+
+## Week 3
+
+- **Frontpage**
+  - Make a frontpage will all 118 elemements each linking to a page about the element
+
+## Week 4
+
+- **Make accounts "useful"**
+  - Make a user dashboard
+  - Make it look nice
+
+- **Other**
+  - Make a "you do not have access" error message
+  - incorporate this to other pages
+
+## Week 5
+
+- **Quizzes"**
+  - Make quizzes about the elements
+  - Polish the quizzes
+
+- **Json**
+  - Find/make a json file with facts about elements then make the quizzes use that
+
+## Week 6
+
+- **Quiz to Account"**
+  - Add quizzes "stats" to the dashboard
+
+- **Maybe**
+  - Make it possible for users to customize the dashboard with markdown?
+
+## Week 7
+
+- **Adding embeds**
+  - Make a dashboard embedded
+  - Make embeds for other elements/pages
+
+## Week 7+
+
+- **Optimise**
+  - Optimise backend and database
+  - Optimise html, css and javascript files along with images
+- **Polish**
+  - Make all element pages look more polished
+  - Make the rest of the pages look better
+
 ## Getting Started
 
 As of now this website is a work in progress and very early in its development and has not been ported yet. Feel free to contribute

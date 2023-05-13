@@ -48,7 +48,7 @@
   
     <div class="cursor"></div>
     <header class="header align-text-top">
-       {{ title }} b
+       {{ title }}
        <nav>
         <ul>
           <li>

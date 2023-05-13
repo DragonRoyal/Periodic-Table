@@ -11,8 +11,8 @@ use serde_json::{Result, Value};
 use std::fs::File;
 use std::io::BufReader;
 use std::io::Read;
-
-
+use rocket::form::Form;
+use rocket::Data;
 use rocket::response::{content, status};
 
 use std::path::{Path, PathBuf};
@@ -68,7 +68,13 @@ async fn er() -> Template {
     Template::render("error/500",&context)
 }
 
+#[post("/login", data="<creds>")] //post bc we want to send the login infomation to the db/server
+fn login(creds: Data) -> Template {
 
+    let mut context: HashMap<&str, &str> = HashMap::new();
+    context.insert("name", "thjing");
+    Template::render("login",&context)
+}
 
 
 
@@ -171,16 +177,15 @@ fn default(status: Status, req: &Request) -> String {
 #[launch]
 fn rocket() -> _ {
     //yew::Renderer::<App>::new().render();
-    
 
-    println!("\"\"");
     rocket::build()
         
         .mount("/", routes![index])
+        .mount("/", routes![login])
         .mount("/elements", routes![hydrogen])
         .mount("/", routes![er])
         .mount("/static", FileServer::from("static"))
-        .mount("/", routes![favicon])
+        .mount("/", routes![favicon]) //will optimize later by combining all the routes together
         .register("/", catchers![internal_error, not_found, default])
         .attach(Template::fairing())
     

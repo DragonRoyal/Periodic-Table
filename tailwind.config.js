@@ -4,7 +4,10 @@ module.exports = {
   "./static/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        glober: ["Glober","sans-serif"],
+    },},
   },
   plugins: [
     require('tailwindcss'),

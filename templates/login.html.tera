@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <meta charset="UTF-8">
+    
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="/static/tailcss/login_o.css">
+    {# <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css"> #}
+    <link rel="stylesheet" type="text/css" href="/static/css/scroll2.css">
+    
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+
+        .cursor {
+            margin: 0;
+            padding:0;
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+            border-radius: 50%;
+            border: 2px solid #eee;
+            left: 0;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            transition: width 1000ms, height 1000ms;
+        
+        }
+        
+        .cursor.large{
+            margin: 0;
+            padding:0;
+            height: 70px;
+            width: 70px;
+        }
+
+
+
+    </style>
+  </head>
+
+
+<body>
+
+   <div class="wrapper">
+
+  
+    <div class="cursor"></div>
+    <header class="header align-text-top font-Glober">
+       <strong class=>Login</strong>
+       <nav>
+        <ul>
+          <li>
+            <a href="/" class="text-lime-600 hover:text-orange-600" style="text-shadow: 0 0 20px #65a30d;" > Home</a>
+          </li>
+    
+        </ul>
+      </nav>
+      
+    </header>
+
+    <article class="main">
+        <div class="opacBox ">
+          <form class="">
+            <label for="fname">Email:</label><br><br>
+            <input class ="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Password:</label><br><br>
+            <input class="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="lname" name="lname"><br><br>
+            <input type="checkbox" class="accent-slate-950 bg-slate-800" id="remember" name="remember" value="Rem">
+            <label class = "mr-auto text-xl" for="remember"> Remember me  </label><br><br>
+            <div class="btn-wrap">
+              <button class="login-btn1">Login</button>
+            <div>
+          </form>
+        </div>
+    </article>
+    <footer class="footer mb-auto">
+      
+      <ul>
+        <li>
+          <a class="url" href="https://github.com/DragonRoyal/Periodic-Table"><i class="fa fa-github"></i></a>
+        </li>
+
+      </ul>
+
+    </footer>
+   
+   <script src="/static/javascript/scroll.js"></script>
+
+
+
+
+</body>
+</html>

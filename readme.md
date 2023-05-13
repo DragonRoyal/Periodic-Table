@@ -16,7 +16,7 @@ Welcome to the Periodic Table website, an open-source project designed to help u
 
 - **Login page**
   - Finish login page frontend
-  - Finish resitration page frontend
+  - Finish registration page frontend
 
 - **Database**
   - Connect and set database connections

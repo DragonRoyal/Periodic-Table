@@ -33,7 +33,12 @@ getrandom = { version = "0.2", features = ["js"] } |
 
 */
 
-
+#[derive(FromForm, Debug)]
+struct UserDetail {
+    email: String,
+    password: String,
+    // Add more fields as needed
+}
 
 #[derive(Serialize)]
 struct PageData {
@@ -61,20 +66,29 @@ async fn index() -> Template {
 
 
 
-
 #[get("/500")]
 async fn er() -> Template {
     let context: HashMap<&str, &str> = HashMap::new();
     Template::render("error/500",&context)
 }
 
-#[post("/login", data="<creds>")] //post bc we want to send the login infomation to the db/server
-fn login(creds: Data) -> Template {
 
-    let mut context: HashMap<&str, &str> = HashMap::new();
-    context.insert("name", "thjing");
+
+
+#[get("/login")]
+async fn login() -> Template {
+    let context: HashMap<&str, &str> = HashMap::new();
     Template::render("login",&context)
+
 }
+
+#[post("/submit", data = "<user_detail>")]
+async fn submit(user_detail: Form<UserDetail>) -> String {
+    
+    // Process the form data, e.g., store it in a database
+    format!("Form submitted: {:?}", user_detail)
+}
+
 
 
 
@@ -169,6 +183,7 @@ async fn not_found(req: &Request<'_>) -> Template {
 fn default(status: Status, req: &Request) -> String {
     format!("{} ({})", status, req.uri())
 }
+//422 for bad input
 
 // error handling section end **
 
@@ -181,7 +196,7 @@ fn rocket() -> _ {
     rocket::build()
         
         .mount("/", routes![index])
-        .mount("/", routes![login])
+        .mount("/", routes![login,submit])
         .mount("/elements", routes![hydrogen])
         .mount("/", routes![er])
         .mount("/static", FileServer::from("static"))

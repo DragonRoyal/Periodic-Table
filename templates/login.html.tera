@@ -66,13 +66,13 @@
 
     <article class="main">
         <div class="opacBox ">
-          <form class="">
+          <form action="/submit" method="post">
             <label for="fname">Email:</label><br><br>
             <input class ="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="fname" name="fname"><br><br>
             <label for="lname">Password:</label><br><br>
             <input class="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="lname" name="lname"><br><br>
-            <input type="checkbox" class="accent-slate-950 bg-slate-800" id="remember" name="remember" value="Rem">
-            <label class = "mr-auto text-xl" for="remember"> Remember me  </label><br><br>
+            {# <input type="checkbox" class="accent-slate-950 bg-slate-800" id="remember" name="remember" value="Rem">
+            <label class = "mr-auto text-xl" for="remember"> Remember me  </label><br><br> #}
             <div class="btn-wrap">
               <button class="login-btn1">Login</button>
             <div>

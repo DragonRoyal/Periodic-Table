@@ -29,3 +29,4 @@ links.forEach(link => {
 navlinks.forEach((li, i) => {
     li.style.animationDelay = 0 + i * 140 + "ms";
 });
+

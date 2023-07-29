@@ -1,55 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <meta charset="UTF-8">
-    <script src="/static/javascript/startpage.js"></script>
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="/static/tailcss/start_o.css">
-    {# <link rel="stylesheet" type="text/css" href="/static/css/elements/element.css"> #}
-    <link rel="stylesheet" type="text/css" href="/static/css/scroll2.css">
-    
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <style>
-
-        .cursor {
-            margin: 0;
-            padding:0;
-            position: fixed;
-            width: 40px;
-            height: 40px;
-            z-index: 2;
-            border-radius: 50%;
-            border: 2px solid #eee;
-            left: 0;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
-            transition: width 1000ms, height 1000ms;
-        
-        }
-        
-        .cursor.large{
-            margin: 0;
-            padding:0;
-            height: 70px;
-            width: 70px;
-        }
-
-
-
-    </style>
-  </head>
-
-
-<body>
- 
-
-
 <!-- var categories -->
+<script>
+  var categories = ['alkali-metals', 'alkaline-earth-metals', 'lanthanoids', 'actinoids', 'transition-metals', 'post-transition-metals', 'metalloids', 'other-nonmetals', 'noble-gasses', 'unknown'];
+</script>
+
+<!-- ELEMENT MIXIN TEMPLATE -->
+<script>
+  function element(number, symbol, name, mass, weight, material, column, row, targetPage) {
+    var elementHtml = `
+      <div class="element ${material} c${column} r${row}">
+        <a href="${targetPage}">
+          <div class="square">
+            <div class="model">
+              ${weight.reverse().map((item) => `
+                <div class="orbital">
+                  ${Array(item).fill().map(() => '<div class="electron"></div>').join('')}
+                </div>
+              `).join('')}
+            </div>
+            <div class="atomic-number">${number}</div>
+            <div class="label">
+              <div class="symbol">${symbol}</div>
+              <div class="name">${name}</div>
+            </div>
+            <div class="atomic-mass">${mass}</div>
+            <ul class="atomic-weight">
+              ${weight.reverse().map((item) => `<li>${item}</li>`).join('')}
+            </ul>
+          </div>
+        </a>
+      </div>
+    `;
+    return elementHtml;
+  }
+</script>
+
+<!-- PLACEHOLDER MIXIN TEMPLATE -->
+<script>
+  function placeholder(number, material, column, row) {
+    var placeholderHtml = `
+      <div class="placeholder ${material} c${column} r${row}">
+        <div class="square">${number}</div>
+      </div>
+    `;
+    return placeholderHtml;
+  }
+</script>
 
 <!-- HTML Structure -->
 <div class="wrapper">
@@ -61,7 +56,6 @@
   
   <div class="periodic-table">
     <!-- Elements -->
-    
     ${element(1, 'H', 'Hydrogen', 1.008, [1], 'other-nonmetal', 1, 1, 'element/hydrogen')}
     ${element(2, 'He', 'Helium', 4.0026, [2], 'noble-gas', 18, 1, 'element/helium')}
     ${element(3, 'Li', 'Lithium', 6.94, [3], 'alkali-metal', 1, 2, 'element/lithium')}
@@ -181,7 +175,8 @@
     ${element(117, 'Ts', 'Tennessine', '(294)', [2,8,18,32,32,18,7], 'halogen', 17, 7, 'element/tennessine')}
     ${element(118, 'Og', 'Oganesson', '(294)', [2,8,18,32,32,18,8], 'noble-gas', 18, 7, 'element/oganesson')}
     
-  
+    <!-- Rest of the elements -->
+    ...
     
     <!-- Placeholders -->
     ${placeholder('57-71', 'lanthanoid', 3, 6)}
@@ -206,8 +201,3 @@
     </div>
   </div>
 </div>
-
-
-
-
-</body>

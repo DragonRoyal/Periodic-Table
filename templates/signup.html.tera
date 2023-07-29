@@ -52,7 +52,7 @@
   
     <div class="cursor"></div>
     <header class="header align-text-top font-Glober">
-       <strong class=>Login</strong>
+       <strong class=>Sign Up</strong>
        <nav>
         <ul>
           <li>
@@ -66,7 +66,7 @@
 
     <article class="main">
         <div class="opacBox ">
-          <form action="/submit" method="post">
+          <form action="/makenew" method="post">
             <label for="fname">Email:</label><br><br>
             <input class ="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="email" name="email"><br><br>
             <label for="lname">Password:</label><br><br>
@@ -77,7 +77,7 @@
               <button class="login-btn1">Login</button>
             <div>
           </form>
-          <h3 class="text-xl">Don't have an account? <a href="/signup" class="text-lime-600 hover:text-orange-600" style="text-shadow: 0 0 20px #65a30d;">Sign up</a></h3>
+          <h3 class="text-xl">Have an account? <a href="/login" class="text-lime-600 hover:text-orange-600" style="text-shadow: 0 0 20px #65a30d;">Login</a></h3>
         </div>
     </article>
     <footer class="footer mb-auto">

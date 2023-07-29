@@ -72,7 +72,12 @@ async fn er() -> Template {
     Template::render("error/500",&context)
 }
 
+#[get("/start")]
+async fn start() -> Template {
+    let context: HashMap<&str, &str> = HashMap::new();
+    Template::render("test2",&context)
 
+}
 
 
 #[get("/login")]
@@ -86,10 +91,19 @@ async fn login() -> Template {
 async fn submit(user_detail: Form<UserDetail>) -> String {
     
     // Process the form data, e.g., store it in a database
+    println!("{:?}",user_detail);
     format!("Form submitted: {:?}", user_detail)
+    
 }
 
-
+#[post("/makenew", data = "<user_detail>")]
+async fn makenew(user_detail: Form<UserDetail>) -> String {
+    
+    // Process the form data, e.g., store it in a database
+    println!("{:?}",user_detail);
+    format!("Form submitted: {:?}", user_detail)
+    
+}
 
 
 #[get("/<element>")]
@@ -196,7 +210,7 @@ fn rocket() -> _ {
     rocket::build()
         
         .mount("/", routes![index])
-        .mount("/", routes![login,submit])
+        .mount("/", routes![login,submit,start])
         .mount("/elements", routes![hydrogen])
         .mount("/", routes![er])
         .mount("/static", FileServer::from("static"))

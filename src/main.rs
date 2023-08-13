@@ -87,6 +87,12 @@ async fn login() -> Template {
 
 }
 
+#[get("/signup")]
+async fn signup() -> Template {
+    let context: HashMap<&str, &str> = HashMap::new();
+    Template::render("signup",&context)
+}
+
 #[post("/submit", data = "<user_detail>")]
 async fn submit(user_detail: Form<UserDetail>) -> String {
     
@@ -210,7 +216,7 @@ fn rocket() -> _ {
     rocket::build()
         
         .mount("/", routes![index])
-        .mount("/", routes![login,submit,start])
+        .mount("/", routes![login,submit,start,signup])
         .mount("/elements", routes![hydrogen])
         .mount("/", routes![er])
         .mount("/static", FileServer::from("static"))

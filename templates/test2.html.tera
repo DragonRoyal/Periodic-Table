@@ -50,7 +50,7 @@
 <body>
 <div class="wrapper"><input class="category-toggle" type="radio" id="alkali-metals" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="alkaline-earth-metals" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="lanthanoids" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="actinoids" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="transition-metals" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="post-transition-metals" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="metalloids" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="other-nonmetals" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="noble-gasses" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" /><input class="category-toggle" type="radio" id="unknown" name="categories" /><input class="category-cancel" type="radio" id="cancel" name="categories" />
     <div class="periodic-table">
-        <div class="element other-nonmetal c1 r1"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c1 r1"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('1')"/><input class="deactivate" type="radio" name="elements" />
             
             <div class="overlay"></div>
             <div class="square">
@@ -66,7 +66,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r1"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r1"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('2')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -86,7 +86,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('3')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -107,7 +107,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('4')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -132,7 +132,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c13 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c13 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('5')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -158,7 +158,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c14 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c14 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('6')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -185,7 +185,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c15 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c15 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('7')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -213,7 +213,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c16 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c16 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('8')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -242,7 +242,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c17 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c17 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('9')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -272,7 +272,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r2"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('10')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -303,7 +303,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('11')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -338,7 +338,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('12')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -374,7 +374,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c13 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c13 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('13')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -411,7 +411,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c14 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c14 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('14')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -449,7 +449,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c15 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c15 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('15')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -488,7 +488,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c16 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c16 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('16')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -528,7 +528,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c17 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c17 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('17')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -569,7 +569,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r3"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('18')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -611,7 +611,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('19')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -657,7 +657,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('20')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -704,7 +704,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c3 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c3 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('21')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -752,7 +752,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c4 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c4 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('22')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -801,7 +801,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c5 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c5 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('23')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -851,7 +851,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c6 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c6 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('24')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -902,7 +902,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c7 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c7 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('25')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -954,7 +954,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c8 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c8 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('26')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1007,7 +1007,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c9 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c9 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('27')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1061,7 +1061,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c10 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c10 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('28')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1116,7 +1116,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c11 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c11 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('29')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1172,7 +1172,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c12 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c12 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('30')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1229,7 +1229,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c13 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c13 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('31')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1287,7 +1287,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c14 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c14 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('32')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1346,7 +1346,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c15 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c15 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('33')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1406,7 +1406,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c16 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c16 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('34')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1467,7 +1467,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c17 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c17 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('35')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1529,7 +1529,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r4"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('36')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1592,7 +1592,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('37')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1659,7 +1659,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('38')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1727,7 +1727,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c3 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c3 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('39')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1796,7 +1796,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c4 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c4 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('40')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1866,7 +1866,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c5 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c5 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('41')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -1937,7 +1937,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c6 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c6 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('42')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2009,7 +2009,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c7 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c7 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('43')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2082,7 +2082,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c8 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c8 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('44')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2156,7 +2156,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c9 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c9 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('45')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2231,7 +2231,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c10 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c10 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('46')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2304,7 +2304,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c11 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c11 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('47')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2381,7 +2381,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c12 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c12 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('48')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2459,7 +2459,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c13 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c13 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('49')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2538,7 +2538,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c14 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c14 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('50')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2618,7 +2618,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c15 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c15 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('51')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2699,7 +2699,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c16 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c16 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('52')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2781,7 +2781,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element other-nonmetal c17 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element other-nonmetal c17 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('53')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2864,7 +2864,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r5"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('54')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -2948,7 +2948,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('55')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3036,7 +3036,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('56')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3125,7 +3125,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c4 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c4 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('57')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3215,7 +3215,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c5 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c5 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('58')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3306,7 +3306,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c6 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c6 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('59')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3398,7 +3398,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c7 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c7 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('60')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3491,7 +3491,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c8 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c8 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('61')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3585,7 +3585,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c9 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c9 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('62')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3680,7 +3680,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c10 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c10 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('63')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3776,7 +3776,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c11 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c11 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('64')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3873,7 +3873,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c12 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c12 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('65')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -3971,7 +3971,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c13 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c13 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('66')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4070,7 +4070,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c14 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c14 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('67')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4170,7 +4170,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c15 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c15 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('68')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4271,7 +4271,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c16 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c16 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('69')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4373,7 +4373,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c17 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c17 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('70')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4476,7 +4476,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element lanthanoid c18 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element lanthanoid c18 r9"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('71')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4580,7 +4580,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c4 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c4 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('72')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4685,7 +4685,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c5 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c5 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('73')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4791,7 +4791,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c6 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c6 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('74')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -4898,7 +4898,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c7 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c7 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('75')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5006,7 +5006,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c8 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c8 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('76')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5115,7 +5115,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c9 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c9 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('77')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5225,7 +5225,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c10 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c10 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('78')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5336,7 +5336,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c11 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c11 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('79')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5448,7 +5448,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c12 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c12 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('80')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5561,7 +5561,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c13 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c13 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('81')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5675,7 +5675,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c14 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c14 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('82')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5790,7 +5790,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c15 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c15 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('83')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -5906,7 +5906,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c16 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c16 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('84')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6023,7 +6023,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element metalloid c17 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element metalloid c17 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('85')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6141,7 +6141,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element noble-gas c18 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element noble-gas c18 r6"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('86')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6260,7 +6260,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkali-metal c1 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkali-metal c1 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('87')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6383,7 +6383,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element alkaline-earth-metal c2 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element alkaline-earth-metal c2 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('88')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6507,7 +6507,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c4 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c4 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('89')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6632,7 +6632,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c5 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c5 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('90')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6758,7 +6758,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c6 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c6 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('91')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -6885,7 +6885,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c7 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c7 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('92')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7013,7 +7013,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c8 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c8 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('93')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7142,7 +7142,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c9 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c9 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('94')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7272,7 +7272,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c10 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c10 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('95')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7403,7 +7403,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c11 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c11 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('96')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7535,7 +7535,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c12 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c12 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('97')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7668,7 +7668,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c13 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c13 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('98')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7802,7 +7802,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c14 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c14 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('99')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -7937,7 +7937,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c15 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c15 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('100')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8073,7 +8073,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c16 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c16 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('101')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8210,7 +8210,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c17 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c17 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('102')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8348,7 +8348,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element actinoid c18 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element actinoid c18 r10"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('103')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8487,7 +8487,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c4 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c4 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('104')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8627,7 +8627,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c5 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c5 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('105')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8768,7 +8768,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c6 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c6 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('106')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -8910,7 +8910,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c7 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c7 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('107')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9053,7 +9053,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c8 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c8 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('108')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9197,7 +9197,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c9 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c9 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('109')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9342,7 +9342,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c10 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c10 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('110')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9488,7 +9488,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c11 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c11 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('111')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9635,7 +9635,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element transition-metal c12 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element transition-metal c12 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('112')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9783,7 +9783,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c13 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c13 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('113')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -9932,7 +9932,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element post-transition-metal c14 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element post-transition-metal c14 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('114')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -10082,7 +10082,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c15 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c15 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('115')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -10233,7 +10233,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c16 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c16 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('116')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -10385,7 +10385,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c17 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c17 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('117')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
                 <div class="model">
@@ -10538,7 +10538,7 @@
                 </ul>
             </div>
         </div>
-        <div class="element unknown c18 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
+        <div class="element unknown c18 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('118')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
 

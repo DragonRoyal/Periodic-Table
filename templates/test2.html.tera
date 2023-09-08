@@ -69,12 +69,7 @@
         <div class="element noble-gas c18 r1"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
-                <div class="model">
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                </div>
+
                 <div class="atomic-number">2</div>
                 <div class="label">
                     <div class="symbol">He</div>
@@ -10388,139 +10383,7 @@
         <div class="element unknown c17 r7"><input type="radio" class="activate" id="hydrogen" name="elements" onclick="redirectToElement('hydrogen')"/><input class="deactivate" type="radio" name="elements" />
             <div class="overlay"></div>
             <div class="square">
-                <div class="model">
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                    <div class="orbital">
-                        <div class="electron"></div>
-                        <div class="electron"></div>
-                    </div>
-                </div>
+                
                 <div class="atomic-number">117</div>
                 <div class="label">
                     <div class="symbol">Ts</div>

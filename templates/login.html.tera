@@ -66,11 +66,12 @@
 
     <article class="main">
         <div class="opacBox ">
-          <form action="/submit" method="post">
-            <label for="fname">Email:</label><br><br>
-            <input class ="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="email" name="email"><br><br>
-            <label for="lname">Password:</label><br><br>
-            <input class="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="password" name="password"><br><br>
+          <form id="loginForm" action="/submit" method="post">
+            <label for="fname">Email:</label><br>
+            <input class ="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="email" name="email" required><br>
+            <p class="text-2xl list-image-[url(/static/images/cancel.png)]" id="errorText"></p><br>
+            <label for="lname">Password:</label><br>
+            <input class="text-slate-950 outline-none ring-[3px] ring-blue-500 focus:ring-4" type="text" id="password" name="password" required><br><br>
             {# <input type="checkbox" class="accent-slate-950 bg-slate-800" id="remember" name="remember" value="Rem">
             <label class = "mr-auto text-xl" for="remember"> Remember me  </label><br><br> #}
             <div class="btn-wrap">
@@ -79,6 +80,7 @@
           </form>
           <h3 class="text-xl">Don't have an account? <a href="/signup" class="text-lime-600 hover:text-orange-600" style="text-shadow: 0 0 20px #65a30d;">Sign up</a></h3>
         </div>
+        
     </article>
     <footer class="footer mb-auto">
       
@@ -92,6 +94,35 @@
     </footer>
    
    <script src="/static/javascript/scroll.js"></script>
+   <script>
+    // To check if the email is valid
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+  
+      // Get the entered email value
+      const emailInput = document.getElementById("email");
+      const email = emailInput.value;
+  
+      // Regular expression to validate email format
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  
+      // Check if the entered email matches the regex pattern
+      if (!emailRegex.test(email)) {
+          document.getElementById("errorText").textContent = "✡ Invalid email format. Please enter a valid email.";
+          return;
+      }
+  
+      // If the email is valid, you can proceed with your login logic here
+      // For example, submit the form or perform an AJAX request to authenticate the user
+  
+      // Clear the error message
+      document.getElementById("errorText").textContent = "";
+  
+      // Replace this line with your login logic
+      console.log("Login successful for email: " + email);
+  });
+   </script>
+ 
 
 
 

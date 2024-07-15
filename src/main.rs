@@ -215,12 +215,9 @@ fn rocket() -> _ {
 
     rocket::build()
         
-        .mount("/", routes![index])
-        .mount("/", routes![login,submit,start,signup])
+        .mount("/", routes![index,login,submit,start,signup,er,favicon])     
         .mount("/elements", routes![hydrogen])
-        .mount("/", routes![er])
-        .mount("/static", FileServer::from("static"))
-        .mount("/", routes![favicon]) //will optimize later by combining all the routes together
+        .mount("/static", FileServer::from("static"))  //will optimize later by combining all the routes together
         .register("/", catchers![internal_error, not_found, default])
         .attach(Template::fairing())
     

@@ -184,7 +184,7 @@
     
     <div class="gap c3 r8"></div>
     
-    <!-- Key -->
+    <!-- Key --.>
     <div class="key">
       <div class="row">
         <label class="alkali-metal" for="alkali-metals">Alkali Metals</label>
